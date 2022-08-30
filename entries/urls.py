@@ -1,4 +1,7 @@
+# entries/urls.py
+
 from django.urls import path
+
 from . import views
 
 urlpatterns = [
@@ -11,5 +14,5 @@ urlpatterns = [
         "entry/<int:pk>",
         views.EntryDetailView.as_view(),
         name="entry-detail"
-    )
+    ),
 ]
