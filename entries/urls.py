@@ -31,3 +31,5 @@ urlpatterns = [
         name="entry-delete"
     )
 ]
+
+
