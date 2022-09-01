@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6da48f8f-fd2d-4018-b51c-4b1a5c65fe88" name="Changes" comment="corrected css path">
-      <change beforePath="$PROJECT_DIR$/entries/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/entries/views.py" afterDir="false" />
+    <list default="true" id="6da48f8f-fd2d-4018-b51c-4b1a5c65fe88" name="Changes" comment="added CreateView, UpdateView, DeleteView classes to views.py">
+      <change afterPath="$PROJECT_DIR$/entries/templates/entries/entry_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661943776327</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added CreateView, UpdateView, DeleteView classes to views.py">
+      <created>1661958496176</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661958496176</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +110,7 @@
     <MESSAGE value="WIP bugfix for entry_list" />
     <MESSAGE value="added css functionality" />
     <MESSAGE value="corrected css path" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrected css path" />
+    <MESSAGE value="added CreateView, UpdateView, DeleteView classes to views.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="added CreateView, UpdateView, DeleteView classes to views.py" />
   </component>
 </project>
