@@ -20,13 +20,13 @@ class EntryDetailView(DetailView):
 
 class EntryCreateView(CreateView):
     model = Entry
-    field = ["title", "content"]
+    fields = ["title", "content"]
     success_url = reverse_lazy("entry-list")
 
 
 class EntryUpdateView(UpdateView):
     model = Entry
-    field = ["title", "content"]
+    fields = ["title", "content"]
 
     def get_success_url(self):
         return reverse_lazy(
@@ -38,4 +38,3 @@ class EntryUpdateView(UpdateView):
 class EntryDeleteView(DeleteView):
     model = Entry
     success_url = reverse_lazy("entry-list")
-

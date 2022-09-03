@@ -1,8 +1,6 @@
-# entries/urls.py
-
 from django.urls import path
-
 from . import views
+
 
 urlpatterns = [
     path(
@@ -21,15 +19,16 @@ urlpatterns = [
         name="entry-create"
     ),
     path(
-        "update",
+        "entry/<int:pk>/update",
         views.EntryUpdateView.as_view(),
-        name="entry-update"
+        name="entry-update",
     ),
     path(
-        "delete",
+        "entry/<int:pk>/delete",
         views.EntryDeleteView.as_view(),
-        name="entry-delete"
-    )
+        name="entry-delete",
+    ),
+
 ]
 
 
