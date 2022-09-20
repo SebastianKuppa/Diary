@@ -1,6 +1,9 @@
 {% extends "entries/base.html" %}
 
 {% block content %}
+<article>
+    <a href="{% url 'entry-create' %}"><button>Add new entry</button></a>
+</article>
     {% for entry in entry_list %}
         <article>
             <h2 class="{{ entry.date_created|date:'l' }}">
